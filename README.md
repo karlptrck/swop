@@ -45,7 +45,7 @@ steps to test
 2) Click on Post Booking button
 3) On another browser, access this [airline api simulator](http://68.183.204.206:3000/testBookings?fbclid=IwAR35cCJEmkGWKyb7ZYMoLAZ8jI46AgZgxnfRg5wCvqsVLh5eiEJcvXAo3Yo) and select any booking ID
 4) Enter the selected booking ID on the Booking ID field and click on the Submit button
-5) The browser will issue an error as it is trying to connect to the airline api simulator. Click on the icon and click on "Load unsafe scripts" and go again to https://abielvillarosa.github.io/swop/postbooking page and enter the Booking ID.
+5) The browser will issue an error as it is trying to connect to insecure Test API Endpoints. Click on the icon and click on "Load unsafe scripts" and go again to https://abielvillarosa.github.io/swop/postbooking page and enter the Booking ID.
 6) On the Post Details page, the booking details are retrieved. Click on the Post link
 7) This will open up a Metamask window and login, if not yet logged in. Click on the Confirm button
 8) For the purpose of this testing, the transaction hash is displayed on the screen once it has connected and posted the transaction on the blockchain.
