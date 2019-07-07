@@ -4,7 +4,7 @@ Trustless peer-to-peer marketplace for non-rebookable/refundable airline flight 
 
 ## Problem Statement
 
-description here
+Customers booked airline tickets in advance and most of these tickets are not refundable. Since these tickets are booked earlier, plans may change due to personal circumstances and when these happen, customer may lose money from the non-refundable tickets. 
 
 ## Proposed Solution
 
