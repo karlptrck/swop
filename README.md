@@ -10,6 +10,19 @@ Customers booked airline tickets in advance and most of these tickets are not re
 
 description here
 
+## dApp Architecture Design
+
+The current design was made with the assumption that Airlines had partnered with this system to make it work.
+
+
+#### Sell Ticket - Sequence Diagram
+
+![](https://user-images.githubusercontent.com/47552061/60403402-a5ae1a00-9b6a-11e9-833e-7966706cd28b.png)
+
+#### Buy Ticket - Sequence Diagram
+
+![](https://user-images.githubusercontent.com/47552061/60403404-aa72ce00-9b6a-11e9-97e5-c31525f5f080.png)
+
 ## Source Codes
 
 - [Smart Contracts](https://github.com/karlptrck/swop-contracts-mvp) 
@@ -27,4 +40,3 @@ description here
 
 steps to test
 
-More details available on Wiki Page
