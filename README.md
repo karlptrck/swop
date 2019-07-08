@@ -25,7 +25,7 @@ The current design was made with the assumption that Airlines had partnered with
 
 ![](https://user-images.githubusercontent.com/47552061/60403404-aa72ce00-9b6a-11e9-97e5-c31525f5f080.png)
 
-### Data Storage
+#### Data Storage
 
 #### On-Chain
 
