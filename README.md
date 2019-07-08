@@ -25,6 +25,42 @@ The current design was made with the assumption that Airlines had partnered with
 
 ![](https://user-images.githubusercontent.com/47552061/60403404-aa72ce00-9b6a-11e9-97e5-c31525f5f080.png)
 
+### Data Storage
+
+#### On-Chain
+
+Only data regarding the locked funds and transaction states were stored in the blockchain as follows:
+- amount
+- swopRefNo
+- address (sender/buyer)
+
+#### Off-Chain
+
+All flight details were stored in Firebase Database for easy lookup and flight search filter as follows:
+
+**/ticketDetail/swopRefNo**
+- amount
+- status
+- airline
+- airportCode
+- arrivalDateTime
+- departureDateTime
+- origin
+- destination
+
+**/origin**
+- /countryCode/ticketId
+
+**/destination**
+- /countryCode/ticketId
+
+**/departureDay**
+- /date/fightId
+
+**/arrivalDay**
+- /date/fightId
+
+
 ## Source Codes
 
 - [Smart Contracts](https://github.com/karlptrck/swop-contracts-mvp) 
