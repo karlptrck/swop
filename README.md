@@ -4,13 +4,13 @@ Trustless peer-to-peer marketplace for non-rebookable/refundable airline flight 
 
 ## Problem Statement
 
-Customers booked airline tickets in advance and most of these tickets are not refundable. Since these tickets are booked earlier, plans may change due to personal circumstances and when these happen, customer may lose substantial amount of money due to the non-refundable tickets. 
+Customers booked airline tickets in advance and most of these tickets are not refundable. Since these tickets are booked earlier, plans may change due to personal circumstances and when these happen, customers may lose substantial amount of money due to the non-refundable nature of the tickets. 
 
-On the part of the airline, the chance that some passengers will not turn up on the day of the flight provides an opportunity for them to do overbooking. But overbooking creates a lot of issue and creates an unpleasant experience for passengers and airline staffs on the day of the flight if all passengers turn up. This also adds more overhead cost for them as they need to compensate passengers who got bumped off from the flight.
+On the part of the airline, the chance that some passengers will not turn up on the day of the flight provides an opportunity for them to do overbooking. But overbooking creates a lot of issue and creates an unpleasant experience for passengers and airline staffs on the day of the flight if all passengers turn up. This also adds more overhead costs for them as they need to compensate passengers who got bumped off from the flight.
 
 ## Proposed Solution
 
-swop application provides an option for customers to swop their booking to other passengers if they will not be able to take their flight. This prevents them from losing all their money used to booked their tickets by posting their ticket on the application for swopping. Swoppers who buy the posted tickets have an advantage as most of the tickets bought in advance are cheaper than current ticket price on the market. For airlines, since the chance of passenger not turning up because they can swap their tickets, they can lessen if not remove their overbooking threshold. This can bring a more favourable experience for passengers and airline staffs and lessen the costs incurred by the airlines.
+swop application provides an option for customers to swop their booking to other passengers if they will not be able to take their flight. This prevents them from losing all their money used to book their tickets by posting their ticket on the application for swopping. Swoppers who buy the posted tickets have an advantage as most of the tickets bought in advance are cheaper than the current ticket price on the market. For airlines, since the chance of passenger not turning up is lower because they can swap their tickets, they can lessen, if not remove, their overbooking threshold. This can bring a more favourable experience for passengers and airline staffs and lessen the costs incurred by the airlines.
 
 ## dApp Architecture Design
 
@@ -76,7 +76,7 @@ All flight details were stored in Firebase Database for easy lookup and flight s
 
 ### Front-End Testing Instructions
 
-steps to test
+Post Booking - Steps to test
 1) Go to https://abielvillarosa.github.io/swop
 2) Click on Post Booking button
 3) On another browser, access this [airline api simulator](http://68.183.204.206:3000/testBookings?fbclid=IwAR35cCJEmkGWKyb7ZYMoLAZ8jI46AgZgxnfRg5wCvqsVLh5eiEJcvXAo3Yo) and select any booking ID
@@ -86,3 +86,4 @@ steps to test
 7) This will open up a Metamask window and login, if not yet logged in. Click on the Confirm button
 8) For the purpose of this testing, the transaction hash is displayed on the screen once it has connected and posted the transaction on the blockchain.
 
+Swop Booking - Work in progress
