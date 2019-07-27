@@ -19,11 +19,11 @@ The current design was made with the assumption that Airlines had partnered with
 
 #### Sell Ticket - Sequence Diagram
 
-![](https://user-images.githubusercontent.com/47552061/60403402-a5ae1a00-9b6a-11e9-833e-7966706cd28b.png)
+![](https://user-images.githubusercontent.com/47552061/61999843-0d875000-b098-11e9-9342-edee73c54de7.png)
 
 #### Buy Ticket - Sequence Diagram
 
-![](https://user-images.githubusercontent.com/47552061/60403404-aa72ce00-9b6a-11e9-97e5-c31525f5f080.png)
+![](https://user-images.githubusercontent.com/47552061/61999844-18da7b80-b098-11e9-9db4-d36a5371580e.png)
 
 ## Data Storage
 
