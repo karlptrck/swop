@@ -14,7 +14,7 @@ swop application provides an option for customers to swop their booking to other
 
 ## dApp Architecture Design
 
-The current design was made with the assumption that Airlines had partnered with this system to make it work.
+The current design was made with the assumption that AMADEUS or Airlines had partnered with this system by providing custom API to make it work.
 
 
 #### Sell Ticket - Sequence Diagram
