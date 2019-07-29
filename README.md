@@ -27,7 +27,7 @@ The current design was made with the assumption that AMADEUS or Airlines had par
 
 ## Rebooking Fees
 
-Airlines will still earn from the rebooking transactions as swop will deduct the fees from the seller's potential earning from the sold ticket.
+Airlines will still earn from the rebooking transactions as swop will deduct the fees from the seller's potential earning from the sold ticket and transfers it to the airlines' wallet.
 
 ## Data Storage
 
