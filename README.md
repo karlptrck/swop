@@ -74,19 +74,6 @@ All flight details were stored in Firebase Database for easy lookup and flight s
 - Frontend : [Demo URL](https://abielvillarosa.github.io/swop/)
 
 
-### Front-End Testing Instructions
-
-Post Booking - Steps to test
-1) Go to https://abielvillarosa.github.io/swop
-2) Click on Post Booking button
-3) On another browser, access this [airline api simulator](http://68.183.204.206:3000/testBookings?fbclid=IwAR35cCJEmkGWKyb7ZYMoLAZ8jI46AgZgxnfRg5wCvqsVLh5eiEJcvXAo3Yo) and select any booking ID
-4) Enter the selected booking ID on the Booking ID field and click on the Submit button
-5) The browser will issue an error as it is trying to connect to insecure Test API Endpoints. Click on the icon and click on "Load unsafe scripts" and go again to https://abielvillarosa.github.io/swop/postbooking page and enter the Booking ID.
-![](https://github.com/karlptrck/swop/blob/master/swop-browser-sec.JPG)
-6) On the Post Details page, the booking details are retrieved. Click on the Post link
-7) This will open up a Metamask window and login, if not yet logged in. Click on the Confirm button
-8) For the purpose of this testing, the transaction hash is displayed on the screen once it has connected and posted the transaction on the blockchain.
-
 ## Screenshots
 
 #### Landing Page
@@ -100,3 +87,16 @@ Post Booking - Steps to test
 
 #### Search Ticket
 ![](https://raw.githubusercontent.com/karlptrck/swop/master/search_result.png)
+
+### Front-End Testing Instructions
+
+Post Booking - Steps to test
+1) Go to https://abielvillarosa.github.io/swop
+2) Click on Post Booking button
+3) On another browser, access this [airline api simulator](http://68.183.204.206:3000/testBookings?fbclid=IwAR35cCJEmkGWKyb7ZYMoLAZ8jI46AgZgxnfRg5wCvqsVLh5eiEJcvXAo3Yo) and select any booking ID
+4) Enter the selected booking ID on the Booking ID field and click on the Submit button
+5) The browser will issue an error as it is trying to connect to insecure Test API Endpoints. Click on the icon and click on "Load unsafe scripts" and go again to https://abielvillarosa.github.io/swop/postbooking page and enter the Booking ID.
+![](https://github.com/karlptrck/swop/blob/master/swop-browser-sec.JPG)
+6) On the Post Details page, the booking details are retrieved. Click on the Post link
+7) This will open up a Metamask window and login, if not yet logged in. Click on the Confirm button
+8) For the purpose of this testing, the transaction hash is displayed on the screen once it has connected and posted the transaction on the blockchain.
