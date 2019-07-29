@@ -66,6 +66,7 @@ All flight details were stored in Firebase Database for easy lookup and flight s
 - [Smart Contracts](https://github.com/karlptrck/swop-contracts-mvp) 
 - [Backend](https://github.com/karlptrck/swop-backend-mvp)
 - [Frontend](https://github.com/abielvillarosa/swop)
+- [Amadeus - Frontend](https://github.com/abielvillarosa/swop-amadeus)
 
 
 ## Deployments
