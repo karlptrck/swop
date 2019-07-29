@@ -87,4 +87,16 @@ Post Booking - Steps to test
 7) This will open up a Metamask window and login, if not yet logged in. Click on the Confirm button
 8) For the purpose of this testing, the transaction hash is displayed on the screen once it has connected and posted the transaction on the blockchain.
 
-Swop Booking - Work in progress
+## Screenshots
+
+#### Landing Page
+![](https://raw.githubusercontent.com/karlptrck/swop/master/landing.png)
+
+#### Ticket Verification
+![](https://raw.githubusercontent.com/karlptrck/swop/master/ticket_verification.png)
+
+#### Post Ticket
+![](https://raw.githubusercontent.com/karlptrck/swop/master/post.png)
+
+#### Search Ticket
+![](https://raw.githubusercontent.com/karlptrck/swop/master/search_result.png)
