@@ -95,6 +95,7 @@ All flight details were stored in Firebase Database for easy lookup and flight s
 ### Front-End Testing Instructions
 
 Post Booking - Steps to test
+
 0) Install MetaMask and Create Account https://metamask.io/
 1) Go to https://abielvillarosa.github.io/swop-amadeus/
 2) Click on Post Booking button
